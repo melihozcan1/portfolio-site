@@ -16,40 +16,49 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              A BIT OF <span className="purple"> INFO </span> ON ME
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
+              Sİnce I was very little, I've been fascinated by what one can
+              achieve using solely math and logic. This fascination in turn led
+              me to get involved with what I think is the best way of making use
+              of math in today's world:
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> Computer Science. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              Having graduated from one of the most historical and succesful
+              universities in Turkey ,
+              <br />
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
-                </b>
+                <b className="purple"> Bogazici University </b>
               </i>
+              , I now aspire to become a competent Full Stack Developer with an
+              emphasis on Back End development and making use of the best
+              practices out there.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              In the near future, I also want to work on some projects involving
+              Machine Learning & Deep Learning. I already have the basis in
+              these areas, having familiarity with the mathematical background
+              necessary and some experience with frameworks such as
+              <i>
+                <b className="purple"> PyTorch </b>
+              </i>
+              and concepts such as
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  Deep Neural Networks and GANs(Generative Adverserial Networks){" "}
                 </b>
+                in particular.{" "}
               </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              <br />
+              <br />
+              Always a pleasure to get in touch with you.
+              <br />
+              Have a nice time wandering around.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -77,7 +86,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/melihozccan/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

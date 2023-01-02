@@ -155,7 +155,7 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
+  height: 1.5em !important;
   width: 2.5em !important;
 }
 
@@ -406,9 +406,6 @@ button:focus {
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
-}
-.footer-copywright {
-  text-align: center !important;
 }
 
 .footer-body {
