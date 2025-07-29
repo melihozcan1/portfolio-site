@@ -11,11 +11,38 @@ import {
   Route,
   Routes,
   Navigate,
+  useLocation,
 } from "react-router-dom";
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+
+function AnimatedRoutes() {
+  const location = useLocation();
+  
+  return (
+    <TransitionGroup>
+      <CSSTransition
+        key={location.pathname}
+        classNames="fade"
+        timeout={600}
+        appear
+      >
+        <div className="route-section">
+          <Routes location={location}>
+            <Route path="/" element={<Home />} />
+            <Route path="/project" element={<Projects />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/resume" element={<Resume />} />
+            <Route path="*" element={<Navigate to="/" />} />
+          </Routes>
+        </div>
+      </CSSTransition>
+    </TransitionGroup>
+  );
+}
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -34,13 +61,7 @@ function App() {
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
         <ScrollToTop />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/project" element={<Projects />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="*" element={<Navigate to="/" />} />
-        </Routes>
+        <AnimatedRoutes />
         <Footer />
       </div>
     </Router>

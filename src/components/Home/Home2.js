@@ -19,46 +19,58 @@ function Home2() {
               A BIT OF <span className="purple"> INFO </span> ON ME
             </h1>
             <p className="home-about-body">
-              Sİnce I was very little, I've been fascinated by what one can
-              achieve using solely math and logic. This fascination in turn led
-              me to get involved with what I think is the best way of making use
-              of math in today's world:
+              From an early age, I've been captivated by the power of mathematics 
+              and logic to solve complex problems. This fascination naturally led me to
               <i>
-                <b className="purple"> Computer Science. </b>
+                <b className="purple"> Computer Science</b>
               </i>
+              , which I believe represents the most impactful application of mathematical 
+              principles in our modern world.
               <br />
               <br />
-              Having graduated from one of the most historical and succesful
-              universities in Turkey ,
-              <br />
+              As a graduate of
               <i>
-                <b className="purple"> Bogazici University </b>
+                <b className="purple"> Boğaziçi University</b>
               </i>
-              , I now aspire to become a competent Full Stack Developer with an
-              emphasis on Back End development and making use of the best
-              practices out there.
+              , one of Turkey's most prestigious and historically significant institutions, 
+              I am now pursuing my goal to become a skilled Full Stack Developer with a 
+              particular focus on Backend development and industry best practices.
               <br />
               <br />
-              In the near future, I also want to work on some projects involving
-              Machine Learning & Deep Learning. I already have the basis in
-              these areas, having familiarity with the mathematical background
-              necessary and some experience with frameworks such as
+              I have hands-on experience with diverse full-stack systems including
               <i>
-                <b className="purple"> PyTorch </b>
+                <b className="purple"> Scala with Akka HTTP</b>
               </i>
-              and concepts such as
+              , native Android development using
               <i>
-                <b className="purple">
-                  {" "}
-                  Deep Neural Networks and GANs(Generative Adverserial Networks){" "}
-                </b>
-                in particular.{" "}
+                <b className="purple"> Java</b>
               </i>
+              , and extensive work with the
+              <i>
+                <b className="purple"> .NET ecosystem</b>
+              </i>
+              . My backend expertise spans
+              <i>
+                <b className="purple"> SQL Server, Redis, and RabbitMQ</b>
+              </i>
+              for comprehensive distributed system solutions.
               <br />
               <br />
-              Always a pleasure to get in touch with you.
+              Looking ahead, I'm eager to explore projects in Machine Learning & Deep Learning. 
+              I've already built a solid foundation in these fields, with a strong grasp of 
+              the underlying mathematical concepts and hands-on experience with frameworks like
+              <i>
+                <b className="purple"> PyTorch</b>
+              </i>
+              . I'm particularly interested in
+              <i>
+                <b className="purple"> Deep Neural Networks and Generative Adversarial Networks (GANs)</b>
+              </i>
+              .
               <br />
-              Have a nice time wandering around.
+              <br />
+              I'm always excited to connect with fellow developers and tech enthusiasts. 
+              Thank you for taking the time to explore my work!
             </p>
           </Col>
           <Col md={4} className="myAvtar">
