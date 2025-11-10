@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/TextLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/melihozcan1/files/master/resume.pdf";
+  "https://raw.githubusercontent.com/melihozcan1/files/main/resume.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
